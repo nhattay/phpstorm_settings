@@ -1,0 +1,56 @@
+<templateSet group="JavaScript">
+  <template name="aj" value="$.ajax({&#10;        type: &quot;POST&quot;,&#10;        dataType: &quot;json&quot;,&#10;        url: $URL$,&#10;        data: $DATA$,&#10;        success: function (response) {&#10;            $SUCCESS$&#10;        },&#10;        error: function(){&#10;        }&#10;    });" description="gen ajax code" toReformat="false" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUCCESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lg" value="console.log($VAR$);" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="each" value="$($VAR$).each(function( index ) {&#10;    $END$&#10;});" description="each(function( index ) {" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="al" value="alert($VAR$);" description="alert(1)" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="don" value="$(document).on('$ENVENT$', '$SELECTER$', function(e){&#10;    $END$&#10;});" description="$(document).on()" toReformat="false" toShortenFQNames="true">
+    <variable name="ENVENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SELECTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="click" value="$('$SELECTOR$').click(function(e){&#10;    $STAGE$&#10;});" description="click function" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="injq" value="&lt;script src=&quot;https://code.jquery.com/jquery-1.10.0.min.js&quot;&gt;&lt;/script&gt;" description="Insert Jquery 1.10.0" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
