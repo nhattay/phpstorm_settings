@@ -1,4 +1,14 @@
 <keymap version="1" name="IntelliJ IDEA Classic copy" parent="$default">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift alt insert" />
     <mouse-shortcut keystroke="shift alt button1" />
