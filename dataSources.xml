@@ -18,5 +18,11 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="MySQL HN demo" uuid="6c13b324-5a84-4ebe-8863-40f9d017be01">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://ma2.twentyci.asia:3306</jdbc-url>
+    </data-source>
   </component>
 </application>
