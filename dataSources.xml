@@ -24,5 +24,11 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://ma2.twentyci.asia:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="MSSQL UK DEMO - ALP" uuid="910883b2-764c-47bc-a77a-f3e5f3dd209a">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.1.0.68:1433;database=SubscriptionPlatform</jdbc-url>
+    </data-source>
   </component>
 </application>
