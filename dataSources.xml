@@ -42,5 +42,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="MSSQL HN" uuid="c96be402-e818-4224-a9cc-cf70870bf9bc">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://tcidata.clt9qbcbzgay.ap-southeast-1.rds.amazonaws.com;database=tcidata</jdbc-url>
+    </data-source>
   </component>
 </application>
