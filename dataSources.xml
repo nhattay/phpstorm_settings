@@ -48,5 +48,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://tcidata.clt9qbcbzgay.ap-southeast-1.rds.amazonaws.com;database=tcidata</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="SPOT UK DEMO" uuid="0644ccbf-586f-42b1-89a1-675565ce14d1">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://51.132.133.247\TWENTYEA_Spotlight:1433</jdbc-url>
+    </data-source>
   </component>
 </application>
