@@ -52,7 +52,7 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://51.132.133.247\TWENTYEA_Spotlight:1433</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://51.132.133.247\TWENTYEA_Spotlight:1433;database=TwentyAPI</jdbc-url>
     </data-source>
   </component>
 </application>
