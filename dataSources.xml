@@ -28,7 +28,7 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://10.1.0.68:1433;database=SubscriptionPlatform</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://51.132.133.247:1433;database=SubscriptionPlatform</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="HN demo: Cuong team" uuid="f7c0eaa5-d947-4f77-9f57-97fdd7239d76">
       <driver-ref>mysql.8</driver-ref>
