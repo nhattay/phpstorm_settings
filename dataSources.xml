@@ -54,5 +54,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://51.132.133.247\TWENTYEA_Spotlight:1433;database=TwentyAPI</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="MSSQL UK DEMO - ALP [2]" uuid="e1ec4c10-24e8-4668-a94b-f17509e5b390">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.1.0.68:1433;database=SubscriptionPlatform</jdbc-url>
+    </data-source>
   </component>
 </application>
